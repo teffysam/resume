@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Teffy Sam Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render": "npx resumed render resume.json --output resume.html --theme jsonresume-theme-even"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teffysam/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teffysam/resume/issues"
+  },
+  "homepage": "https://github.com/teffysam/resume#readme",
+  "dependencies": {
+    "jsonresume-theme-even": "^0.18.1",
+    "resumed": "^3.0.1"
+  }
+}
